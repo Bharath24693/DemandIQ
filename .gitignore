@@ -13,8 +13,7 @@ __pycache__/
 .ipynb_checkpoints
 
 # Data & Models
-data/*
-!data/.gitkeeps
+
 saved_models/*
 !saved_models/.gitkeep
 
