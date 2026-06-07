@@ -1,19 +1,11 @@
-# Core Data Science
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-xgboost==2.0.3
-
-# Visualization
-plotly==5.22.0
-matplotlib==3.8.4
-seaborn==0.13.2
-
-# Web App & API
-streamlit==1.35.0
-Flask==3.0.3
-
-# Utilities
-openpyxl==3.1.2
-requests==2.31.0
-jupyter==1.0.0
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+plotly
+matplotlib
+seaborn
+flask
+openpyxl
+requests
