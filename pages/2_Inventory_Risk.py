@@ -1,9 +1,16 @@
 import streamlit as st
 import plotly.express as px
+import sys
+import os
+
+# Fix import path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from Home import load_data 
 
-# 1. Access cached data
+# Access cached data
 df = load_data()
+
+# ... (The rest of your working Inventory Risk code remains the same)
 
 st.title("Inventory Risk & Health Monitoring")
 
